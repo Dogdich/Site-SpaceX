@@ -92,12 +92,15 @@
     .menu__body{
         display: flex;
         flex-direction: column;
+        gap: 100px;
     }
     .menu__list__first{
         flex-direction: column;
 gap: 40px;
-width: 100vw;
 align-items: center;
+flex-grow: 0;
+width: 100%;
+
     }
     .menu__list__first a{
         font-family: 'Roboto';
@@ -109,7 +112,8 @@ align-items: center;
     }
     .menu__list__second{
         display: flex;
-        width: 100vw;
+        width: 100%;
+
         justify-content: center;
     }
     .menu__list__second a{
@@ -201,6 +205,14 @@ justify-content: center;
     }
     .page__main{
         padding-bottom: 100px;
+    }
+    .menu__body{
+        gap: 20px;
+    }
+    .menu__list__second{
+        flex-direction: column-reverse;
+
+        align-items: center;
     }
 }
 }
