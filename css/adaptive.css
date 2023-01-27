@@ -1,0 +1,223 @@
+@media (max-width: 991.98px){
+    .text__falcon{
+        gap: 15px;
+    }
+    .falcon__container{
+        padding-right: 0px;
+        padding-left: 10px;
+    }
+    .falcon__overview{
+        padding-top: 250px;
+    }
+}
+@media (max-width: 767.98px) {
+    .icon-menu{
+        display: block;
+    flex: 0 0 30px;
+    height: 18px;
+    position: relative;
+    z-index: 5;
+    }
+    .icon-menu::after{
+        content: " ";
+        right: 0;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+    }
+    .icon-menu::before{
+        content: " ";
+        right: 0;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+    }
+    .icon-menu span{
+        content: " ";
+        right: 0;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+        transition: all 0.3s  ease 0s;
+    }
+    .menu-open .icon-menu span{
+        width: 0;
+    }
+    .menu-open .icon-menu::before{
+        top: calc(50% - 1px);
+        transform: rotate(-45deg);
+        transition: all 0.4s ease 0s;
+    }
+    .menu-open .icon-menu::after{
+        bottom: calc(50% - 1px);
+        transform: rotate(45deg);
+        transition: all 0.4s ease 0s;
+    }
+    .icon-menu::before{
+        top: 0;
+    }
+    .icon-menu::after{
+        bottom: 0;
+    }
+    .icon-menu span{
+     top: calc(50% - 1px);
+    }
+    .menu__body{
+        z-index: 2;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #000000;
+        right: -100%;
+        top: 0;
+        padding: 100px 15px 30px 15px;
+        overflow: auto;
+        transition: right 0.3s ease 0s;
+    
+    }
+    .menu__body::before{
+        content: "";
+        width: 100%;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 70px;
+        background-color: #000;
+        z-index: 2;
+        transition: right 0.3s ease 0s;
+    }
+    .menu__body{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu__list__first{
+        flex-direction: column;
+gap: 40px;
+width: 100vw;
+align-items: center;
+    }
+    .menu__list__first a{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 14px;
+        color: #FFFFFF;
+    }
+    .menu__list__second{
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+    }
+    .menu__list__second a{
+        font-size: 20px;
+     
+    }
+    .falcon__container{
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .falcon__img{
+        align-self: center;
+    }
+    .falcon__overview{
+        padding-bottom:150px ;
+padding-top: 20px;
+        
+    }
+
+    .falcon__content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-items: center;
+        
+
+    }
+    .main__text__falcon{
+        text-align: center ;
+        padding-bottom: 100px;
+    }
+    .upper__text__falcon{
+        text-align: center;
+        align-self: center;
+    }
+    .header{
+        padding-top: 24px;
+    }
+    .text__falcon{
+        gap: 50px;
+    }
+}
+@media (max-width: 599.98px) {
+.social__links{
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+font-size: 15px;
+}
+}
+@media (max-width: 580px) {
+    .falcon__container{
+        padding: 0;
+    }
+.footer__social{
+    text-align: center;
+}
+.text__falcon{
+
+display: flex;
+gap: 25px;
+align-items: center;
+justify-content: center;
+    font-size: 16px;
+}
+.falcon__overview{
+    width: 100%;
+}
+
+}
+@media (max-width: 540px) {
+.night{
+    width: 400px;
+}
+.falcon__menu__indication p{
+    display: none;
+}
+.falcon__img{
+    margin-top: 150px;
+
+}
+@media (max-width: 300px){
+    .earth{
+ display: none;
+    }
+    .falcon__img{
+        margin-top: 0px;
+    }
+    .page__main{
+        padding-bottom: 100px;
+    }
+}
+}
+@media (max-width: 440px){
+    .main__text__falcon{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .night{
+        width: 300px;
+    }    
+} 
+@media (min-width: 2000px){
+    .night{
+        width: 1000px;
+    }
+    .falcon__container{
+        padding-top: 300px;
+    }
+}
