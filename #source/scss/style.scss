@@ -159,7 +159,8 @@ margin-top: 35px;
   
   .night {
       width: 100%;
-    background-image: url("../img/earth/earth-night.jpg");
+    background: url("../img/earth/earth-night.jpg") ;
+    background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 width: 500px;
 -webkit-box-shadow: inset 74px 0px 50px 0px rgba(219, 219, 219, 0.441);
